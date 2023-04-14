@@ -1,12 +1,15 @@
-import React from 'react'
-import Table from './components/Table'
+import React from "react";
+import Table from "./components/Table";
+import Layout from "./components/Layout";
 
 const App = () => {
   return (
     <>
-        <Table/>
+      <Layout>
+        <Table />
+      </Layout>
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;

@@ -2,13 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
-    padding: 0px;
-    margin: 0px;
-    font-size: 16px;
-    box-sizing: border-box;
+* {
+  padding: 0px;
+  margin: 0px;
+  font-size: 14px;
+  box-sizing: border-box;
+  transition: all 0.3s;
 }
 
-div{
-    color: rgb(47, 47, 73);
+div {
+  color: rgb(47, 47, 73);
 }
